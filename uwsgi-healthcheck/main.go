@@ -24,7 +24,6 @@ func main() {
 	config := types.Config{
 		Address: *addrPtr,
 		Port:    *portPtr,
-		Verbose: *verbosePtr,
 	}
 
 	ponged := uwsgi.Ping(config)

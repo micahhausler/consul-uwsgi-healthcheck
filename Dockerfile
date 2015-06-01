@@ -11,7 +11,7 @@ FROM busybox
 
 MAINTAINER Micah Hausler, <micah.hausler@ambition.com>
 
-COPY uwsgi-healthcheck /bin/uwsgi-healthcheck
+COPY uwsgi-healthcheck/uwsgi-healtcheck /bin/uwsgi-healthcheck
 RUN chmod 755 /bin/uwsgi-healthcheck
 
 ENTRYPOINT ["/bin/uwsgi-healthcheck"]
