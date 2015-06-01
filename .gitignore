@@ -11,6 +11,8 @@ _test
 coverage.out
 profile.cov
 
+uwsgi-healthcheck/uwsgi-healthcheck
+
 
 # Architecture specific extensions/prefixes
 *.[568vq]
